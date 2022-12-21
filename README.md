@@ -1,2 +1,2 @@
 # Enlace del E2
-https://vercel.com/marianoperez08/e2
+https://e2-marianoperez08.vercel.app/
