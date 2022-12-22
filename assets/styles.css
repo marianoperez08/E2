@@ -2,27 +2,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap");
 
 :root {
-  /* bg colors */
-  --background: #02050e;
-  --primary: #1e50ff;
-  --secondary: #272d37;
-  --btn-bg: #050d26;
-  --bg-azul-10: #e9eeff;
-  --bg-white: #fff;
-  --bg-electric: #f0fbff;
-  --nav-bg: #0f1525;
-
-  /* Text colors */
-  --text-gray: #adb9c7;
-  --text-white: #f3f4f6;
-
-  /* Decoration */
-  --fire: #ff6d00;
-  --electric: #64d3ff;
-  
   /* colors */
-  --red: #b51200;
+  --black-o: #000000;
+  --black: #141414;
+  --darkgray: #707070;
+  --gray: #909090;
+  --lightgray: #D0D0D0;
+  --white-o: #ffffff;
   --white: #fafafa;
+  --red: #E00006;
+  --darkred: #b51200;
+  --golden: #EFB810;
 
 }
 
@@ -38,7 +28,7 @@
 /*header*/
 
 header {
-  background: var(--background);
+  background: var(--black);
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -85,6 +75,74 @@ header {
   height: 30px;
   padding: 5px 10px;
   margin-right: 1rem;
-  color: var(--text-white);
+  color: var(--white);
   cursor: pointer;
+}
+
+
+
+main {
+  background: var(--darkred);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  width: 100%;
+}
+
+.hero {
+  margin-top: 65px;
+  padding: 70px 0;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero img {
+  height: 300px;
+  border-radius: 20px;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0px 50px;
+}
+
+.hero-info h2 {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.hero-info h2 span {
+  color: var(--golden)
+}
+
+.hero-info p span {
+  color: var(--golden);
+  font-weight: 600;
+}
+
+.hero-buttons{
+  margin-top: 10px;
+}
+
+.hero-buttons a{
+  font-weight: 900;
+  color: var(--white);
+  width: 120px;
+  padding: 12px;
+  border-radius: 50px;
+  font-size: 14px;
+  text-align: center;
+  border: 3px solid var(--white);
+
+}
+
+.hero-buttons a:first-child{
+  background-color: var(--white);
+  color: var(--darkred);
+  margin-right: 10px;
 }
