@@ -84,6 +84,7 @@ header {
 main {
   background: var(--darkred);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   color: var(--white);
@@ -145,4 +146,11 @@ main {
   background-color: var(--white);
   color: var(--darkred);
   margin-right: 10px;
+}
+
+.gdi-info p{
+  display: flex;
+  background-color: var(--white);
+  color: var(--black);
+  padding: 70px 150px;
 }
